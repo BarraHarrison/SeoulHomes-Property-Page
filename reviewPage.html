@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reviewStyle.css">
+    <title>Leave a Review</title>
+</head>
+    <!-- header -->
+<header>
+    <nav class="nav-bar">
+        <ul>
+            <li class="nav-link" id="heading"><a href="/Final HTML CSS Project/main.html"><i class="fa-solid fa-house-chimney"></i></a></li>
+            <li class="nav-link" id="icon"><a href="/Final HTML CSS Project/Login Page/login.html" class="login"><i class="fa-regular fa-user"></i></a></li>
+        </ul>
+    </nav>
+</header>
+<!-- /header -->
+<body>
+    <div class="review-container">
+        <form action="submit" method="post">
+            <div class="review-content">
+                <label for="review-content">Write your review here</label>
+                <br>
+                <textarea id="review-content" name="review-content" cols="2" rows="7" required></textarea>
+            </div>
+
+            <div class="name-div">
+                <label for="review-name">Name</label>
+                <input type="text" id="review-name" name="review-name" required>
+            </div>
+
+            <div class="rating-div">
+                <p>Star Rating </p>
+                <div class="rating-icons">
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="submit-div">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <!-- Link for Icons -->
+    <script src="https://kit.fontawesome.com/7b01594302.js" crossorigin="anonymous"></script>
+</body>
+</html>

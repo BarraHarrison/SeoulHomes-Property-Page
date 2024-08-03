@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="apartment-listing-style.css">
+    <title>Apartment Listings Page</title>
+</head>
+<header>
+    <nav class="nav-bar">
+        <ul>
+            <li class="nav-link" id="heading"><a href="/Final HTML CSS Project/main.html" class="heading">SeoulHomes</a></li>
+            <li class="nav-link" id="icon"><a href="/Final HTML CSS Project/Login Page/login.html" class="login">Sign up / Login</a><i class="fa-regular fa-user"></i></li>
+        </ul>
+    </nav>
+</header>
+<!-- /header -->
+    <body>
+        <div class="container">
+            <h1>Apartment</h1>
+            <div class="content">
+                <div class="search-section">
+                    <h2>Advanced Search</h2>
+                    <label for="property-type">Property Type</label>
+                    <select name="property-type" id="property-type">
+                        <option value="apartment">Apartment</option>
+                        <option value="hanok">Hanok</option>
+                        <option value="villa">Villa</option>
+                        <option value="officetel">Officetel</option>
+                        <option value="commercial">Commercial</option>
+                        <option value="factory">Factory</option>
+                        <option value="land">Land</option>
+                        <option value="office">Office</option>
+                    </select>
+                    <label for="location">Location</label>
+                    <select name="location" id="location">
+                        <option value="seoul">Seoul 서울</option>
+                        <option value="busan">Busan 부산</option>
+                        <option value="jeju">Jeju 제주도</option>
+                        <option value="incheon">Incheon 인천</option>
+                        <option value="gyeonggi-do">Gyeonggi-do 경기도</option>
+                    </select>
+                    <label for="bedrooms">No. of Bedrooms</label>
+                    <select name="bedrooms" id="bedrooms">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <label for="bathrooms">No. of Bathrooms</label>
+                    <select name="bathrooms" id="bathrooms">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <label for="transaction-type">Types of Transaction</label>
+                    <select name="transaction-type" id="transaction-type">
+                        <option value="rent">Rent 월세</option>
+                        <option value="jeonse">Jeonse 전세</option>
+                        <option value="short-term">Short-term</option>
+                        <option value="loft-style">Loft-style</option>
+                        <option value="sale">Sale</option>
+                        <option value="pre-sale">Pre-sale</option>
+                    </select>
+                    <label for="deposit">Deposit</label>
+                    <select name="deposit" id="deposit">
+                        <option value="1">Less than ₩10mill</option>
+                        <option value="2">₩10mill - ₩20mill</option>
+                        <option value="3">₩20mill - ₩30mill</option>
+                        <option value="4">₩30mill - ₩40mill</option>
+                        <option value="5">₩40mill - ₩50mill</option>
+                        <option value="6">More than ₩50mill</option>
+                    </select>
+                    <label for="subway-stations">Subway Stations Nearby</label>
+                    <select name="subway-stations" id="subway-stations">
+                        <option value="seoul-station">Seoul Station 서울역</option>
+                        <option value="jamsil-station">Jamsil 잠실역</option>
+                        <option value="apgujeong-station">Apgujeong 압구정역</option>
+                        <option value="hapjeong-station">Hapjeong 합정역</option>
+                        <option value="sindorim-station">Sindorim 신도림역</option>
+                        <option value="gangnam-station">Gangnam 강남역</option>
+                        <option value="yeouido-station">Yeouido 여의도역</option>
+                        <option value="hongdae-station">Hongdae 홍대역</option>
+                        <option value="samsung-station">Samsung 삼성역</option>
+                        <option value="myeongdong-station">Myeongdong 명동역</option>
+                        <option value="dongdaemun-station">Dongdaemun 동대문역</option>
+                        <option value="itaewon-station">Itaewon 이태원역</option>
+                        <option value="yeoksam-station">Yeoksam 역삼역</option>
+                        <option value="seolleung-station">Seolleung 선릉역</option>
+                        <option value="seongsu-station">Seongsu 성수역</option>
+                        <option value="chungmuro-station">Chungmuro 충무로역</option>
+                        <option value="sinchon-station">Sinchon 신촌역</option>
+                        <option value="gangbyeon-station">Gangbyeon 강변역</option>
+                        <option value="euljiro-station">Euljiro 을지로역</option>
+                    </select>
+
+                </div>
+                <div class="apartment-section">
+                    <h2>Showing all results:</h2>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-six.jpeg" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-four.webp" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-five.jpg" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-two.jpg" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-six.jpeg" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                    <div class="apartment-result">
+                        <p class="price-tag">₩1,300,000</p>
+                        <img src="images/recent-listing-four.webp" alt="listing number six">
+                        <div class="apartment-info">
+                            <p>This is a loft apartment near Mangwon Hangang River Park.</p>
+                            <p>Seoul Mapo-gu Mangwon-ro 43</p>
+                            <p><i class="fa-solid fa-bed"></i> 1 Bedrooms <br> <i class="fa-solid fa-shower"></i> Bathrooms <br> 64m²</p>
+                            <p>Rent <i class="fa-solid fa-share-nodes"></i> <i class="fa-regular fa-bookmark"></i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <script src="https://kit.fontawesome.com/7b01594302.js" crossorigin="anonymous"></script>
+    </body>
+</html>
